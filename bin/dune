@@ -1,0 +1,4 @@
+(executable
+ (public_name embed_experiment)
+ (name main)
+ (libraries base64))
