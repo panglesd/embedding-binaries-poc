@@ -1,4 +1,5 @@
 (executable
  (public_name embed_experiment)
  (name main)
- (libraries base64))
+ (libraries base64)
+ (preprocess (pps embed)))
